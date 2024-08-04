@@ -179,7 +179,7 @@
 
             async function updateQuote() {
                 try {
-                    const url = ''.concat('https://vedicscriptures.github.io/slok',randomSelection(1,18),'/',randomSelection(1,75));
+                    const url = ''.concat('https://vedicscriptures.github.io/slok/',randomSelection(1,18),'/',randomSelection(1,75));
                     const response = await fetch(url);
                     const data = await response.json();
 
